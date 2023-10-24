@@ -140,6 +140,7 @@ nav {
     gap: 89px;
     background: #04983d;
     margin-bottom: -38px;
+
 }
 
 .nav_all {
@@ -227,6 +228,7 @@ nav {
     /* 14px */
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
 }
 
 footer {
@@ -613,6 +615,46 @@ footer {
     box-shadow: inset 4px 2px 3px rgba(0, 0, 0, 0.347);
 }
 
-button:not(:hover) {
+.footers_btn:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.footers_btn:not(:hover){
     transition: 1s;
 }
+
+.fullnumb_two:hover{
+    transition: 0.5s;
+    color: #1AA34F;
+}
+
+.fullnumb_two:not(:hover){
+    transition: 1s;
+}
+
+.switch_catag:active {
+    background-color: rgba(255, 255, 255, 0.696);
+    color: #04871e;
+    transform: scale(1);
+    box-shadow: inset 4px 2px 3px rgba(0, 0, 0, 0.347);
+}
+
+.switch_catag:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.switch_catag:not(:hover){
+    transition: 1s;
+}
+
+.circle_carpet:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.circle_carpet:not(:hover){
+    transition: 1s;
+}
+
