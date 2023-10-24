@@ -21,6 +21,9 @@ header {
     height: 80px;
     padding-top: 5px;
 }
+button{
+    cursor: pointer;
+}
 
 .header_section {
     display: flex;
@@ -41,6 +44,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
+    text-decoration: none;
     /* 16px */
 }
 
@@ -94,6 +98,7 @@ input {
     font-style: normal;
     font-weight: 500;
     line-height: 35%;
+    cursor: pointer;
     /* 14px */
 }
 
@@ -135,6 +140,7 @@ nav {
     gap: 89px;
     background: #04983d;
     margin-bottom: -38px;
+
 }
 
 .nav_all {
@@ -221,6 +227,8 @@ nav {
     line-height: 100%;
     /* 14px */
     text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 footer {
@@ -557,3 +565,96 @@ footer {
     line-height: 100%;
     /* 16px */
 }
+
+
+.first_footer a:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+ a:not(:hover) {
+    transition: 0.3s;
+}
+.socia_box:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.socia_box:not(:hover) {
+    transition: 1s;
+}
+.catag_a_all:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.catag_a_all:not(:hover) {
+    transition: 1s;
+}
+.order:hover{
+    transition: 0.5s;
+    color: black;
+}
+
+.order:not(:hover) {
+    transition: 1s;
+}
+
+.mail:hover{
+    transition: 0.5s;
+    color: green;
+}
+.mail:not(:hover){
+    transition: 1s;
+}
+
+.footers_btn:active {
+    background-color: rgba(255, 255, 255, 0.696);
+    color: #04871e;
+    transform: scale(1);
+    box-shadow: inset 4px 2px 3px rgba(0, 0, 0, 0.347);
+}
+
+.footers_btn:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.footers_btn:not(:hover){
+    transition: 1s;
+}
+
+.fullnumb_two:hover{
+    transition: 0.5s;
+    color: #1AA34F;
+}
+
+.fullnumb_two:not(:hover){
+    transition: 1s;
+}
+
+.switch_catag:active {
+    background-color: rgba(255, 255, 255, 0.696);
+    color: #04871e;
+    transform: scale(1);
+    box-shadow: inset 4px 2px 3px rgba(0, 0, 0, 0.347);
+}
+
+.switch_catag:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.switch_catag:not(:hover){
+    transition: 1s;
+}
+
+.circle_carpet:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.circle_carpet:not(:hover){
+    transition: 1s;
+}
+
