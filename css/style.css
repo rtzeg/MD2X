@@ -212,7 +212,6 @@ nav {
 .text_eva {
     text-align: center;
     color: var(--dark, #120309);
-    text-align: center;
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
@@ -240,7 +239,7 @@ nav {
 
 .elem_emblems:hover {
     transform: scale(1.05);
-    box-shadow: 2px 2px 2px 2px rgba(19, 19, 23, 0.2); 
+    box-shadow: 2px 2px 2px 2px rgba(19, 19, 23, 0.2);
 }
 
 .text_emb p {
@@ -253,7 +252,128 @@ nav {
     line-height: 150%;
 }
 
+.why_eva {
+    padding-top: 100px;
+}
 
+.text_why h1 {
+    color: var(--dark, #120309);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.grid_why_eva {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.elem_whyeva {
+    gap: 25px;
+    height: 250px;
+    border-radius: 16px;
+}
+
+#first_ali {
+    background-image: url(/MD2X/img/main_product_ali.svg);
+}
+
+#second_ali {
+    background-image: url(/MD2X/img/material_Ali.svg);
+}
+
+#third_ali {
+    background-image: url(/MD2X/img/optical_size_Ali.svg);
+}
+
+#fourth_ali {
+    background-image: url(/MD2X/img/back_money_Ali.svg);
+}
+
+.overall_text {
+    padding: 30px; 
+}
+
+.text_gar h2 {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.gar_p {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text_reck h2 {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.reck_p {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text_meter h2 {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.met_p p {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+}
+
+.text_box h2 {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.box_p p {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+}
+
+.why_eva {
+    padding-bottom: 120px;
+}
 
 
 
