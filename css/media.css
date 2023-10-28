@@ -1,0 +1,380 @@
+@media (max-width: 2000px) {
+    .container {
+        width: 1220px;
+    }
+
+   .burger {
+    display: none;
+   }
+
+   .end2 {
+    display: none;
+
+   }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+        
+    }
+    header {
+        height: auto;
+    }
+    
+    .ending {
+        display: flex;
+        justify-content: space-around;
+    }
+    .right_beka {
+        display: none;
+    }
+    .burger {
+        display: none;
+    }
+    .about_evadrom {
+        background-image: url(../img/Rectangle\ 521.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 20px;
+    }
+    .first_section {
+        background-image: none;
+    }
+    .exp_carp p {
+        color: white;
+    }
+    .evadromTitle {
+        color: white;
+    }
+    .right_beka {
+        display: none;
+    }
+    .catal_btn {
+        display:none;
+    }
+
+    .header_section {
+        gap: 20px;
+    }
+
+    input {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 700px;
+        
+    }
+
+    .left_registor {
+        margin: auto;
+    }
+    
+
+
+   .zero_footer svg {
+    width: 100.56px;
+    height: 51px;
+   }
+
+   .zero_footer p {
+    font-size: small;
+   }
+
+   .footer_socia {
+    gap: 10px;
+   }
+
+   .first_footer h2 {
+    font-size: 13px;
+   }
+
+   .first_footer a {
+    font-size: 14px;
+   }
+
+    .elem_emblems img{
+     max-width: 80%;
+    }
+
+    .girl_img {
+        display: none;
+    }
+
+    .catalog_text {
+        font-size: 13px;
+    }
+
+    .catalog  {
+        width: 95px;
+    }
+
+    .nav_all a {
+        font-size: 10px;
+    }
+
+    nav {
+        margin-bottom: auto;
+        height: 50px;
+    }
+
+    .text_emb p {
+        margin-top: 3px;
+        font-size: 13px;
+    }
+
+    .elem_emblems {
+        height: 109px;
+    }
+
+    
+
+    .order {
+        display: none;
+    }
+
+    .evadromTitle {
+        font-size: 29px;
+    }
+
+    .left_line p {
+        font-size: 10px;
+    }
+
+    .all_line a {
+        font-size: 10px;
+    }
+
+    .all_line {
+        justify-content: space-around;
+    }
+
+    .gar_p {
+        font-size: 13px;
+    }
+
+    .text_gar h2 {
+        font-size: 22px;
+    }
+
+    .text_reck h2 {
+        font-size: 22px;
+    }
+
+    .reck_p {
+        font-size: 10px;
+    }
+
+    .text_meter h2 {
+        font-size: 22px;
+    }
+
+    .text_box h2 {
+        font-size: 22px;
+    }
+
+    .header_section {
+        gap: 20px;
+    }
+
+    .city {
+        font-size: 13px;
+    }
+
+    input {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+        
+    }
+
+    .about_evadrom {
+        height: 400px;
+    }
+
+
+    .nav_all a {
+        display: none;
+    }
+
+    .catalog {
+        display: none;
+    }
+
+    
+    
+    
+
+    input {
+        display: none;
+    }
+
+    .header_logo img {
+        width:  214px;
+        
+    }
+
+   
+
+    .head_place img{
+        Height: 24px;
+    }
+
+    .order {
+        display: flex;
+        width:  140px;
+        height:  44px;
+        font-size: 11px;
+        align-items: center;
+    }
+
+    .order svg {
+         width: 20px;
+        height: 20px;
+    }
+
+    .phonewrap {
+        display: none;
+    }
+    .head_place {
+        width: 256px;
+    }
+
+
+    .header_section {
+        justify-content: space-evenly;
+    }
+
+    .burger {
+        display: flex;
+       background-color: rgba(0, 0, 128, 0);
+       width: 34px;
+       height: 24px;
+       align-items: center;
+
+    }
+
+    :after.catal_btn {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .evadromTitle  {
+      font-size: 24px;
+      padding-top: 29px;
+    }
+
+    .about_carpet {
+        font-size: 13px;
+    }
+
+    .circle_carpet {
+        width: 36px;
+        height: 36px;
+    }
+
+    .switch_catag  {
+        margin-top: 10px;
+        font-size: 11px;
+    }
+
+    .grid_emblems {
+        grid-template-columns: repeat(4, 1fr);
+       
+        gap: 17px;
+    }
+
+    .text_eva {
+        font-size: 30px;
+    }
+
+    .Eva_Drom {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .overall_text {
+        padding: 20px;
+    }
+
+    .text_gar h2 {
+        font-size: 16px;
+        line-height:normal;
+    }
+    .text_reck h2 {
+        font-size: 16px;
+        line-height:normal;
+    }
+
+    .text_meter h2 {
+        font-size: 16px;
+        line-height:normal;
+    }
+    .text_box h2 {
+        font-size: 16px;
+        line-height:normal;
+    }
+    .elem_whyeva {
+        height: 233px;
+    }
+
+    .text_why h1 {
+        font-size: 38px;
+    }
+    .question_part h1 {
+        font-size: 30px;
+    }
+    .countainer_order h2 {
+        font-size: 20px;
+    }
+    .minus p {
+        font-size: 14px;
+    }
+    .countainer_order h2 {
+        font-size: 17px;
+    }
+    .left_registor {
+        height: auto;
+    }
+
+    .ending {
+        display: none;
+    }
+
+    .all_line {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+    .end2 {
+        display: block;
+    
+       }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        width: 100%;
+       
+    }
+}
