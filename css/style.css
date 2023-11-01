@@ -185,6 +185,7 @@ nav {
     background-image: url(../img/bg_sect1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .evadromTitle {
@@ -1028,5 +1029,79 @@ line-height: 150%;
 
 .circle_carpet:not(:hover){
     transition: 1s;
+}
+
+.hamburger {
+    align-items: center;
+}
+
+.burger:hover {
+    transform: scale(1.05);
+}
+
+.burger:active {
+    transform: scale(1);
+}
+
+.zero_footer2  {
+    display: flex;
+   
+}
+
+.foot {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 335px;
+    height: 45px;
+    border-color: white;
+    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin: auto;
+
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 5px;
+    align-items: center;
+    margin-left: 93px;
+
+
+
+}
+
+.fourth_footer2 {
+    justify-content: space-between;
+    display: flex;
+}
+
+.svgg {
+width: 214px;
+}
+.catal_btn2 {
+    width: 78px;
+    height: 36px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    justify-content: space-between;
+    gap: -7px;
+    border-radius: 8px;
+    background: #FFF;
+
+    color: var(--main-color-black, #120309);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    /* 16px */
 }
 
